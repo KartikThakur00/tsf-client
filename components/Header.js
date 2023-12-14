@@ -65,7 +65,7 @@ export default function Example() {
         </div>
         <div className="hidden lg:flex lg:flex-1 lg:justify-end ">
           <a
-            href="/#"
+            href="https://github.com/KartikThakur00/tsf-client"
             className="text-sm font-semibold leading-6 text-gray-800 hover:bg-slate-200  bg-gray-200 px-4 py-2 rounded-md transition-colors duration-200 ease-in-out"
           >
             Source Code <span aria-hidden="true">&rarr;</span>
@@ -117,7 +117,7 @@ export default function Example() {
               </div>
               <div className="py-6">
                 <a
-                  href="/#"
+                  href="https://github.com/KartikThakur00/tsf-client"
                   className="-mx-3 block rounded-lg px-3 py-2.5 text-sm font-semibold leading-7 text-gray-600 hover:bg-slate-200 bg-gray-200 transition-colors duration-200 ease-in-out"
                 >
                   Source Code <span aria-hidden="true">&rarr;</span>
