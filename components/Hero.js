@@ -1,10 +1,12 @@
 "use client";
 
+import Image from "next/image";
+
 const Hero = () => {
   return (
     <div className="container w-full h-screen flex flex-col justify-center p-6 mx-auto sm:py-12 lg:py-24 lg:flex-row lg:justify-around">
       <div className="flex items-center justify-center p-6 mt-8 lg:mt-0 h-72 sm:h-80 lg:h-96 xl:h-112 2xl:h-128">
-        <img
+        <Image
           src="/Business_SVG.svg"
           alt=""
           className="object-contain h-72 sm:h-80 lg:h-96 xl:h-112 2xl:h-128"

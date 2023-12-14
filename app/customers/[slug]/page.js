@@ -14,7 +14,7 @@ const FromCustomer = ({params}) => {
         setCustomers(data.customers);
         setLoading(false);
       });
-  }, []);
+  }, [id]);
   return (
     <>
       {!loading ? (

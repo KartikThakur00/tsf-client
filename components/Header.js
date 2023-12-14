@@ -2,6 +2,7 @@
 import { useState, useEffect } from "react";
 import { Dialog } from "@headlessui/react";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
+import Image from "next/image";
 
 export default function Example() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
@@ -31,7 +32,7 @@ export default function Example() {
       >
         <div className="flex lg:flex-1">
           <a href="/#" className="-m-1.5 p-1.5 bg-blue-100 rounded-lg">
-            <img className="h-8 w-auto" src="/bank.png" alt="logo" />
+            <Image className="h-8 w-auto" src="/bank.png" alt="logo"/>
           </a>
         </div>
         <div className="flex lg:hidden">
@@ -83,7 +84,7 @@ export default function Example() {
         <Dialog.Panel className="fixed inset-y-0 right-0 z-10 w-full overflow-y-auto bg-white px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">
           <div className="flex items-center justify-between">
             <a href="/#" className="-m-1.5 p-1.5 bg-blue-100 rounded-lg">
-              <img className="h-8 w-auto" src="/bank.png" alt="logo" />
+              <Image className="h-8 w-auto" src="/bank.png" alt="logo" />
             </a>
             <button
               type="button"

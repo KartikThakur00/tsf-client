@@ -39,7 +39,7 @@ const Customers = () => {
               </thead>
               <tbody>
                 {customers.map((customer) => (
-                  <tr key={customer.id} className="text-justify">
+                  <tr key={customer._id} className="text-justify">
                     <td className="border-b-2 px-4 py-3">{customer.name}</td>
                     <td className="border-b-2 px-4 py-3">{customer.email}</td>
                     <td className="border-b-2 px-4 py-3">{customer.balance}</td>

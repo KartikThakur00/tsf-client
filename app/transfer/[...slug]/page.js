@@ -21,7 +21,7 @@ const Transfer = ({ params }) => {
         setCustomerData(data);
         setLoading(false);
       });
-  }, []);
+  }, [from, to]);
 
   const success =()=>{
     toast.success("Transaction Successful !",{
