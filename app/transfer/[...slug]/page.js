@@ -11,7 +11,7 @@ const Transfer = ({ params }) => {
   const to = params.slug[1];
   const [customerData, setCustomerData] = useState({});
   const [loading, setLoading] = useState(true);
-  const [sendAmount, setSendAmount] = useState();
+  const [sendAmount, setSendAmount] = useState(0);
   const [error, setError] = useState(false);
 
   useEffect(() => {
@@ -45,6 +45,7 @@ const Transfer = ({ params }) => {
       .then((res) => res.json())
       .then((data) => {
         if (data.message === "Transaction Successful") {
+          setSendAmount(0);
           success()
           router.push("/customers");
         } else {
