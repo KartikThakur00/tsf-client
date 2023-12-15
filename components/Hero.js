@@ -17,7 +17,7 @@ const Hero = () => {
           Trusted and used by Millions
         </h1>
         <p className="mt-6 mb-8 text-lg sm:mb-12">
-          Now transactions are saffer and easier with our brand new The Bank.
+          Now transactions are safer and easier with our brand new The Bank.
           View old transactions, view bank balance
         </p>
         <div className="flex flex-col space-y-4 sm:items-center sm:justify-center sm:flex-row sm:space-y-0 sm:space-x-4 lg:justify-start">
